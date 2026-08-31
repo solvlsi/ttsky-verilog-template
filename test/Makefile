@@ -5,7 +5,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = tt06-8bit-cpu.v
+PROJECT_SOURCES = 8bit-cpu.v
 
 ifneq ($(GATES),yes)
 
